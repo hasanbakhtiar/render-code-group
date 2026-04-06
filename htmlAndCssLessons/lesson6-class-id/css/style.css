@@ -1,0 +1,47 @@
+/* .red{
+    color: red;
+}
+#custom-text{
+    font-size: 20px;
+} */
+
+
+
+/* header nav ul li{
+    list-style: square;
+}
+header nav ul li a{
+    color: blue;
+    text-decoration: none;
+} */
+
+
+
+/* ul li{
+    color: red;
+} */
+
+
+/* header {
+    nav {
+        ul {
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: green;
+                }
+            }
+        }
+    }
+} */
+
+
+.box {
+        background-color: brown;
+
+        li {
+            color: white;
+        }
+}
