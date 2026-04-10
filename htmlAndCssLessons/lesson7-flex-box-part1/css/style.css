@@ -1,0 +1,21 @@
+.main-box {
+    width: 80%;
+    height: 100vh;
+    background-color: gray;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        margin: 10px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+}
