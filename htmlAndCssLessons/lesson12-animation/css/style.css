@@ -1,0 +1,78 @@
+.box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    /* animation-name: animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-delay: 1s; */
+    animation: animate 5s linear infinite;
+    clip-path: polygon(53% 39%, 35% 19%, 33% 40%);
+
+}
+
+/* i{
+    font-size: 130px;
+    animation: firfir 2s linear infinite;
+}
+@keyframes firfir {
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+/* @keyframes animate {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: red;
+        border-radius: 0px;
+    }
+    
+    25% {
+        top: 0;
+        left: 300px;
+        background-color: yellow;
+        border-radius: 20px;
+        transform: rotate(20deg);
+        width: 200px;
+    }
+    
+    50% {
+        left: 300px;
+        top: 300px;
+        background-color: blue;
+        border-radius: 50px;
+        transform: rotate(120deg);
+        width: 300px;
+    }
+    
+    75% {
+        left: 0px;
+        top: 300px;
+        background-color: green;
+        border-radius: 70px;
+        transform: rotate(220deg);
+        width: 400px;
+    }
+    
+100% {
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 0px;
+    transform: rotate(360deg);
+    width: 100px;
+    }
+} */
+
+/* @keyframes animate {
+    from{
+        left: 0;
+    }
+    to{
+        left: 300px;
+    }
+} */
