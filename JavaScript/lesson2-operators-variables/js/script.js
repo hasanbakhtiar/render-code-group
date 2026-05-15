@@ -110,6 +110,7 @@ if ("b" > "A") {
 // let      -> let      (local)
 
 
+
 // global
 const a = 5;
 if (true) {
