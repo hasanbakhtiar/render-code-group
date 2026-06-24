@@ -1,0 +1,10 @@
+<cars>
+    <car id="1">
+        <brand>BMW</brand>
+        <model>X5</model>
+    </car>
+    <car id="2">
+        <brand>Mercedes</brand>
+        <model>S500</model>
+    </car>
+</cars>
