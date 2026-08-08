@@ -1,0 +1,43 @@
+@use '../mixin' as *;
+@use '../variables' as *;
+@use 'sass:math';
+$infoSize: 10px;
+
+// ul {
+
+//     li {
+
+//         a {
+//             @if($infoSize ==10px) {}
+
+//             @else {
+//                 color: green;
+//                 font-size: 40px;
+//             }
+//         }
+//     }
+// }
+
+
+@function fibonacci($n) {
+    $data : $n*20px;
+    @return $data;
+}
+
+
+
+li a {
+    color: #fff;
+    font-size: #{math.round(25.2)}px;
+    margin-left: fibonacci(5) * 2;
+
+}
+
+
+$base-color: #036;
+
+@for $i from 1 through 5 {
+    li:nth-child(5n + #{$i}) {
+        background-color: lighten($base-color, $i * 10%);
+    }
+}
