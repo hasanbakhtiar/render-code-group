@@ -1,9 +1,11 @@
 import React from 'react'
+import List from './components/List/List'
 
 const App = () => {
   return (
     <div>
-      <ul>
+      <List />
+      {/* <ul>
         <li><a href="">Test text</a></li>
         <li><a href="">Test text</a></li>
         <li><a href="">Test text</a></li>
@@ -21,7 +23,7 @@ const App = () => {
         <li><a href="">Test text</a></li>
         <li><a href="">Test text</a></li>
         <li><a href="">Test text</a></li>
-      </ul>
+      </ul> */}
     </div>
   )
 }
